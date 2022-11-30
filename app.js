@@ -16,7 +16,7 @@ const weather = require('./utils/weather')
 app.get('/about', (req, res) => {
    res.render('about', {
       title: 'About Me',
-      text: 'This is some text about me'
+      text: 'This is some text about me!'
    })
 })
 
